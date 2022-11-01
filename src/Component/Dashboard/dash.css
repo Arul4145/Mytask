@@ -1,0 +1,126 @@
+.board{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 0;
+}
+.board h3{
+    padding: 10px 20px;
+    color: #000;
+}
+.board h2{
+    padding: 10px 20px;
+    color: #fff;
+}
+.board span{
+    padding: 10px 20px;
+    color: #fff;
+}
+.post{
+    width: 200px;
+    height: 100px;
+    background-color:  #E91E63;
+    margin: 20px;
+    border-radius: 5px;
+}
+.comment{
+    width: 200px;
+    height: 100px;
+    background-color:  #3F51B5;
+    margin: 20px;
+    border-radius: 5px;
+}
+.action{
+    width: 200px;
+    height: 100px;
+    background-color:  #FFC107;
+    margin: 20px;
+    border-radius: 5px;
+}
+.like{
+    width: 200px;
+    height: 100px;
+    background-color:  	 #607D8B;
+    margin: 20px;
+    border-radius: 5px;
+}
+.main{
+    width: 70%;
+}
+.list{
+    width: 100%;
+    height: 35%;
+    overflow-y: scroll;
+    margin: 0 auto 20px;
+    
+}
+.list table{
+    justify-content: center;
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+}
+.list table thead{
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.list table thead tr th{
+    padding-bottom: 10px;
+}
+.list table tbody{
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid;
+}
+.list table tbody tr td{
+    padding: 10px 0;
+    font-size: 15px;
+}
+.list2{
+    width: 100%;
+    height: 48%;
+    overflow-y: scroll;
+    margin: 20px auto 0;
+}
+.list2 table{
+    justify-content: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+.list2 table thead{
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.list2 table thead tr th{
+    padding-bottom: 10px;
+}
+.list2 table tbody{
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid;
+}
+.list2 table tbody tr td{
+    padding: 10px 0;
+    font-size: 15px;
+}
+.list2 table tbody tr td button a{
+    text-decoration: none;
+    color: #000;
+}
+.user{
+    width: 30%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
